@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingVertical="10dp"
+    android:paddingLeft="15dp"
+    android:paddingRight="60dp"
+    android:clipToPadding="false">
+
+    <TextView
+        android:id="@+id/clientMessageTv"
+        android:layout_width="228dp"
+        android:layout_height="77dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="26dp"
+        android:layout_marginRight="26dp"
+        android:background="@drawable/robot_message"
+        android:elevation="2dp"
+        android:paddingHorizontal="16dp"
+        android:paddingVertical="12dp"
+        android:text="How are you doing? This is a long message that should probably wrap."
+        android:textSize="18dp" />
+</RelativeLayout>
